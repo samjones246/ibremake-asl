@@ -1,0 +1,86 @@
+{
+    "splits":[
+        {
+            "name": "gallery",
+            "type": "transition",
+            "from":11,
+            "to":7
+        },
+        {
+            "name": "blue",
+            "type": "transition",
+            "from":7,
+            "to":9
+        },
+        {
+            "name": "green",
+            "type": "transition",
+            "from":9,
+            "to":1
+        },
+        {
+            "name": "yellow",
+            "type": "transition",
+            "from":103,
+            "to":16
+        },
+        {
+            "name": "red",
+            "type": "transition",
+            "from":19,
+            "to":23
+        },
+        {
+            "name": "grey",
+            "type": "transition",
+            "from":39,
+            "to":44
+        },
+        {
+            "name": "violet",
+            "type": "transition",
+            "from":47,
+            "to":49
+        },
+        {
+            "name": "brown",
+            "type": "transition",
+            "from":60,
+            "to":4
+        },
+        {
+            "name": "sketchbook",
+            "type": "transition",
+            "from":67,
+            "to":77
+        },
+        {
+            "name": "endPromise",
+            "type": "event",
+            "map": 11,
+            "event": 70,
+            "page": 1,
+            "line": 510
+        },
+        {
+            "name": "endOthers",
+            "type": "event",
+            "common": true,
+            "event": 47,
+            "line": 6
+        }
+    ],
+    "defaults":{
+        "gallery":true,
+        "blue":true,
+        "green":true,
+        "yellow":true,
+        "red":true,
+        "grey":true,
+        "violet":true,
+        "brown":true,
+        "sketchbook":true,
+        "endPromise":true,
+        "endOthers":true
+    }
+}
