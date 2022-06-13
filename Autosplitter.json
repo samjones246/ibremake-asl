@@ -27,10 +27,29 @@
         {
             "name": "yellow",
             "type": "event",
-            "map":103,
-            "event":21,
-            "page":1,
-            "line":0
+            "activators":[
+                {
+                    "type":"event",
+                    "map":103,
+                    "event":21,
+                    "page":1,
+                    "line":0
+                },
+                {
+                    "type":"event",
+                    "map":103,
+                    "event":19,
+                    "page":1,
+                    "line":0
+                },
+                {
+                    "type":"event",
+                    "map":103,
+                    "event":27,
+                    "page":1,
+                    "line":0
+                }
+            ]
         },
         {
             "name": "red",
@@ -42,11 +61,29 @@
         },
         {
             "name": "grey",
-            "type": "event",
-            "map":39,
-            "event":12,
-            "page":1,
-            "line":0
+            "activators":[
+                {
+                    "type": "event",
+                    "map":39,
+                    "event":10,
+                    "page":1,
+                    "line":0
+                },
+                {
+                    "type": "event",
+                    "map":39,
+                    "event":11,
+                    "page":1,
+                    "line":0
+                },
+                {
+                    "type": "event",
+                    "map":39,
+                    "event":12,
+                    "page":1,
+                    "line":0
+                }
+            ]
         },
         {
             "name": "violet",
