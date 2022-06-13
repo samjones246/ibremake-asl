@@ -33,7 +33,7 @@
             "line":0
         },
         {
-            "name": "green",
+            "name": "red",
             "type": "event",
             "map":19,
             "event":14,
@@ -182,6 +182,7 @@
         "brown":false,
         "sketchbook":false,
         "nightmare":true,
+        "toyboxEnter":true,
         "dollroomExit":true,
         "dollroomFail":true,
         "endPromise":true,
