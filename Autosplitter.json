@@ -1,228 +1,450 @@
 {
-    "splits":[
+  "splits": [
+    {
+      "name": "gallery",
+      "activators": [
         {
-            "name": "gallery",
-            "type": "event",
-            "map": 11,
-            "event": 64,
-            "page": 1,
-            "line": 0
-        },
-        {
-            "name": "blue",
-            "type": "event",
-            "map":7,
-            "event": 26,
-            "page":2,
-            "line":0
-        },
-        {
-            "name": "green",
-            "type": "event",
-            "map":9,
-            "event":32,
-            "page":2,
-            "line":0
-        },
-        {
-            "name": "yellow",
-            "type": "event",
-            "activators":[
-                {
-                    "type":"event",
-                    "map":103,
-                    "event":21,
-                    "page":1,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":103,
-                    "event":19,
-                    "page":1,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":103,
-                    "event":27,
-                    "page":1,
-                    "line":0
-                }
-            ]
-        },
-        {
-            "name": "red",
-            "type": "event",
-            "map":19,
-            "event":14,
-            "page":1,
-            "line":0
-        },
-        {
-            "name": "grey",
-            "activators":[
-                {
-                    "type": "event",
-                    "map":39,
-                    "event":10,
-                    "page":1,
-                    "line":0
-                },
-                {
-                    "type": "event",
-                    "map":39,
-                    "event":11,
-                    "page":1,
-                    "line":0
-                },
-                {
-                    "type": "event",
-                    "map":39,
-                    "event":12,
-                    "page":1,
-                    "line":0
-                }
-            ]
-        },
-        {
-            "name": "violet",
-            "type": "event",
-            "map":47,
-            "event":9,
-            "page":2,
-            "line":0
-        },
-        {
-            "name": "brown",
-            "type": "event",
-            "map":60,
-            "event":9,
-            "page":1,
-            "line":0
-        },
-        {
-            "name": "sketchbook",
-            "type": "event",
-            "map":67,
-            "event":8,
-            "page":2,
-            "line":0
-        },
-        {
-            "name": "nightmare",
-            "type": "event",
-            "map":123,
-            "event":159,
-            "page":1,
-            "line":0
-        },
-        {
-            "name": "dollroomExit",
-            "activators":[
-                {
-                    "type":"event",
-                    "map":62,
-                    "event":4,
-                    "page":5,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":125,
-                    "event":4,
-                    "page":5,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":126,
-                    "event":4,
-                    "page":5,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":127,
-                    "event":4,
-                    "page":5,
-                    "line":0
-                }
-            ]
-        },
-        {
-            "name": "dollroomFail",
-            "type": "event",
-            "activators":[
-                {
-                    "type":"event",
-                    "map":62,
-                    "event":20,
-                    "page":3,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":125,
-                    "event":20,
-                    "page":3,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":126,
-                    "event":20,
-                    "page":3,
-                    "line":0
-                },
-                {
-                    "type":"event",
-                    "map":127,
-                    "event":20,
-                    "page":3,
-                    "line":0
-                }
-            ]
-        },
-        {
-            "name": "toyboxEnter",
-            "type": "event",
-            "map": 22,
-            "event": 2,
-            "page": 1,
-            "line": 51
-        },
-        {
-            "name": "endPromise",
-            "type": "event",
-            "map": 11,
-            "event": 70,
-            "page": 1,
-            "line": 510
-        },
-        {
-            "name": "endOthers",
-            "type": "event",
-            "common": true,
-            "event": 47,
-            "line": 6
+          "type": "event",
+          "map": 11,
+          "from": null,
+          "to": null,
+          "event": 64,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
         }
-    ],
-    "defaults":{
-        "gallery":true,
-        "blue":false,
-        "green":false,
-        "yellow":false,
-        "red":true,
-        "grey":false,
-        "violet":false,
-        "brown":false,
-        "sketchbook":false,
-        "nightmare":true,
-        "toyboxEnter":true,
-        "dollroomExit":true,
-        "dollroomFail":true,
-        "endPromise":true,
-        "endOthers":true
+      ],
+      "start": false
+    },
+    {
+      "name": "blue",
+      "activators": [
+        {
+          "type": "event",
+          "map": 7,
+          "from": null,
+          "to": null,
+          "event": 26,
+          "page": 2,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "green",
+      "activators": [
+        {
+          "type": "event",
+          "map": 9,
+          "from": null,
+          "to": null,
+          "event": 32,
+          "page": 2,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "yellow",
+      "activators": [
+        {
+          "type": "event",
+          "map": 103,
+          "from": null,
+          "to": null,
+          "event": 21,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 103,
+          "from": null,
+          "to": null,
+          "event": 19,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 103,
+          "from": null,
+          "to": null,
+          "event": 27,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "red",
+      "activators": [
+        {
+          "type": "event",
+          "map": 19,
+          "from": null,
+          "to": null,
+          "event": 14,
+          "page": 2,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "grey",
+      "activators": [
+        {
+          "type": "event",
+          "map": 39,
+          "from": null,
+          "to": null,
+          "event": 10,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 39,
+          "from": null,
+          "to": null,
+          "event": 11,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 39,
+          "from": null,
+          "to": null,
+          "event": 12,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "violet",
+      "activators": [
+        {
+          "type": "event",
+          "map": 47,
+          "from": null,
+          "to": null,
+          "event": 9,
+          "page": 2,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "brown",
+      "activators": [
+        {
+          "type": "event",
+          "map": 60,
+          "from": null,
+          "to": null,
+          "event": 9,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "sketchbook",
+      "activators": [
+        {
+          "type": "event",
+          "map": 67,
+          "from": null,
+          "to": null,
+          "event": 8,
+          "page": 2,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "nightmare",
+      "activators": [
+        {
+          "type": "event",
+          "map": 123,
+          "from": null,
+          "to": null,
+          "event": 159,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "dollroomExit",
+      "activators": [
+        {
+          "type": "event",
+          "map": 62,
+          "from": null,
+          "to": null,
+          "event": 4,
+          "page": 5,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 125,
+          "from": null,
+          "to": null,
+          "event": 4,
+          "page": 5,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 126,
+          "from": null,
+          "to": null,
+          "event": 4,
+          "page": 5,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 127,
+          "from": null,
+          "to": null,
+          "event": 4,
+          "page": 5,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "dollroomFail",
+      "activators": [
+        {
+          "type": "event",
+          "map": 62,
+          "from": null,
+          "to": null,
+          "event": 20,
+          "page": 3,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 125,
+          "from": null,
+          "to": null,
+          "event": 20,
+          "page": 3,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 126,
+          "from": null,
+          "to": null,
+          "event": 20,
+          "page": 3,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": 127,
+          "from": null,
+          "to": null,
+          "event": 20,
+          "page": 3,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "toyboxEnter",
+      "activators": [
+        {
+          "type": "event",
+          "map": 22,
+          "from": null,
+          "to": null,
+          "event": 2,
+          "page": 1,
+          "line": 51,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "ending",
+      "activators": [
+        {
+          "type": "event",
+          "map": 11,
+          "from": null,
+          "to": null,
+          "event": 70,
+          "page": 1,
+          "line": 510,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        },
+        {
+          "type": "event",
+          "map": null,
+          "from": null,
+          "to": null,
+          "event": 47,
+          "page": null,
+          "line": 6,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": true
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "newgame",
+      "activators": [
+        {
+          "type": "newgame",
+          "map": null,
+          "from": null,
+          "to": null,
+          "event": null,
+          "page": null,
+          "line": null,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
+        }
+      ],
+      "start": false
     }
+  ],
+  "defaults": {
+    "gallery": true,
+    "blue": false,
+    "green": false,
+    "yellow": false,
+    "red": true,
+    "grey": false,
+    "violet": false,
+    "brown": false,
+    "sketchbook": false,
+    "nightmare": true,
+    "dollroomExit": true,
+    "dollroomFail": true,
+    "toyboxEnter": true,
+    "ending": true,
+    "test": false,
+    "newgame": false
+  }
 }
