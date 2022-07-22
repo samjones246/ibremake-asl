@@ -423,7 +423,7 @@
           "id": null,
           "value": null,
           "any": null,
-          "common": null
+          "common": true
         }
       ],
       "start": false
