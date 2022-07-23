@@ -111,12 +111,12 @@
           "from": null,
           "to": null,
           "event": 14,
-          "page": 2,
+          "page": 1,
           "line": 0,
           "id": null,
           "value": null,
           "any": null,
-          "common": null
+          "common": false
         }
       ],
       "start": false
@@ -237,7 +237,7 @@
           "id": null,
           "value": null,
           "any": null,
-          "common": null
+          "common": false
         }
       ],
       "start": false
@@ -423,7 +423,58 @@
           "id": null,
           "value": null,
           "any": null,
-          "common": true
+          "common": null
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "orange",
+      "activators": [
+        {
+          "type": "event",
+          "map": 91,
+          "from": null,
+          "to": null,
+          "event": 8,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 91,
+          "from": null,
+          "to": null,
+          "event": 9,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        }
+      ],
+      "start": false
+    },
+    {
+      "name": "cyan",
+      "activators": [
+        {
+          "type": "event",
+          "map": 93,
+          "from": null,
+          "to": null,
+          "event": 11,
+          "page": 2,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
         }
       ],
       "start": false
@@ -445,6 +496,8 @@
     "toyboxEnter": true,
     "ending": true,
     "test": false,
-    "newgame": false
+    "newgame": false,
+    "orange": true,
+    "cyan": true
   }
 }
